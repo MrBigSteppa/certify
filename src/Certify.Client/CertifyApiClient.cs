@@ -1,18 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Net;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Threading;
-using System.Threading.Tasks;
-using Certify.Config.Migration;
+﻿using Certify.Config.Migration;
 using Certify.Models;
 using Certify.Models.Config;
 using Certify.Models.Utils;
 using Certify.Shared;
-using Newtonsoft.Json;
-using Polly;
 
 namespace Certify.Client
 {
